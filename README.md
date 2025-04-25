@@ -13,7 +13,6 @@ Este es un proyecto que consiste en una aplicación CRUD usando Flask, SQLAlchem
 
 - [Python](https://www.python.org/downloads/)
 - [MySQL](https://dev.mysql.com/downloads/mysql/)
-- [Git](https://git-scm.com/downloads)
 
 ## Configuración e instalación
 

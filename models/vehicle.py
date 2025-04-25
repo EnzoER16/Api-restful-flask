@@ -8,15 +8,15 @@ class Vehicle(db.Model):
     model = db.Column(db.String(20), nullable=False)
     number_plate = db.Column(db.String(10), unique=True, nullable=False)
 
-def __init__(self, brand, model, number_plate):
-    self.brand = brand
-    self.model = model
-    self.number_plate = number_plate
+    def __init__(self, brand, model, number_plate):
+        self.brand = brand
+        self.model = model
+        self.number_plate = number_plate
 
-def serialize(self):
-    return {
-        'id': self.id,
-        'brand': self.brand,
-        'model': self.model,
-        'number_plate': self.number_plate
-    }
+    def serialize(self):
+        return {
+            'id': self.id,
+            'brand': self.brand,
+            'model': self.model,
+            'number_plate': self.number_plate
+        }
